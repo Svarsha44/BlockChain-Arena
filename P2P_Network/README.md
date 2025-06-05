@@ -13,11 +13,14 @@ Details about the network :
 - Each node has degree between 3 and 6
 - The network is fully connected
 
-Instruction to run :
+Instructions to run the code:
 
 To get the adjacency list of the network: (adjList.txt)
+
  g++ -o out p2p.cpp
+ 
  ./out
 
 To visualize the network : (network.png)
+
  python3 pycode.py
